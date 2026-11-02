@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+
+        <title>Creaviq</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+             
+            
+            <h1>Welcome to Creaviq</h1>
+            <nav>
+                <div class="option">
+                <a href="Index.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="Services.html">Services</a>
+                <a href="Contact.html">Contact</a>
+                </div>
+            </nav>
+
+                <h2 style="color: white;">Get in Touch</h2>
+                <div class="contact">
+                <p>
+                    We would love to hear from you.
+                    Feel free to contact us for any questions or enquiries.
+                </p>
+                <form id="contactForm">
+                   
+                    <label>Name:</label>
+                    <input type="text" id="userName" name="name">
+                   
+                    <br><br>
+
+                    <label>Email:</label>
+                    <input type="email" id="userEmail" name="email">
+
+                    <br><br>
+
+                    <label>Message:</label>
+                    <textarea id="userMessage" name="message"></textarea>
+
+                    <br><br>
+
+                    <button type="submit" id="sendBtn">Send Message</button>
+
+                </form>
+                <p id="formResult"></p>
+                </div>
+                <script src="script.js"></script>
+        </body>
+</html>
