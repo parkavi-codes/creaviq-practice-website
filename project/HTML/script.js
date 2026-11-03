@@ -57,6 +57,7 @@ exploreBtn.addEventListener("mouseover", function()  {
 });
 }
 
+// contact form functionality
 let ContactForm = document.getElementById("contactForm");
 
 if (ContactForm) {
