@@ -4,12 +4,14 @@ let tagline = "Innovate. Create. Grow.";
 let service1 = "Web Deveopment";
 let service2 = "Software Development";
 let service3 = "Cloud Solutions";
+let service4 = "Digital Solutions";
 
 console.log(companyName);
 console.log(tagline);
 console.log(service1);
 console.log(service2);
 console.log(service3);
+console.log(service4);
 
 function showServices() 
 {
@@ -17,13 +19,14 @@ function showServices()
     console.log(service1);
     console.log(service2);
     console.log(service3);
+    console.log(service4);
 }
 
 showServices();
 
-const seervice = "Web Development";
+const service = "Web Development";
 
-console.log(seervice);
+console.log(service);
 
 function showService(serviceName) {
         console.log("Our Service: " + serviceName);
